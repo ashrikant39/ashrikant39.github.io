@@ -19,14 +19,14 @@ classes: wide
 
 **[Kim's Lab](https://kim.engin.umich.edu/)**, *University of Michigan* <span class="pull-right">May 2023 – Present</span>  
 <span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Hun-Seok Kim, Assistant Professor, EECS</span>
-<br><i class="fas fa-plus small-grey"></i> Developed and implemented sampling algorithms for optimizing posterior analysis in latent diffusion models for inverse imaging challenges, improving the sampling quality for the LSUN Bedrooms dataset with an FID score of 0.04.
+<br><i class="fas fa-plus small-grey"></i> Proposed and implemented improvements to the diffusion sampling algorithms for inverse imaging problems, enhancing the quality and fidelity of the samples of latent diffusion models, achieving an FID score of 0.04, an improvement of 20% over the baseline model.
 <br><i class="fas fa-plus small-grey"></i> Applied latent diffusion models to simulate a source and channel decoding system using diffusion denoising, resulting in a reconstruction PSNR of 24.4 dB using DDIM sampling on a channel SNR of 0 dB.
 <br><i class="fas fa-plus small-grey"></i> Currently working on LiDAR point cloud upsampling in the BEV space using diffusion posterior sampling.
 
 **[Burris' Lab](https://burris.lab.medicine.umich.edu/)**, *University of Michigan* <span class="pull-right">Aug 2022 – Apr 2023</span>  
 <span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Nicholas Burris, Associate Professor, Radiology</span>  
-<br><i class="fas fa-plus small-grey"></i> Trained an attention-UNET-based model specifically for aortic segmentation, enhancing the accuracy and efficiency of the VDM pipeline, resulting in an improvement of 3% in the F1-score, particularly around aortic walls.
-<br><i class="fas fa-plus small-grey"></i> Played a pivotal role in advancing the overall functionality and efficiency of the Elastix-based CT Registration Pipeline.
+<br><i class="fas fa-plus small-grey"></i> Trained an attention-UNET-based model for aortic segmentation, enhancing the accuracy and efficiency of the Vascular Deformation Mapping pipeline, resulting in an improvement of 3% in the F1-score, particularly around aortic walls.
+<br><i class="fas fa-plus small-grey"></i> Implemented corrections to an Elastix-based CT Registration Pipeline, improving the elastic registration performance of the pipeline for large deformations in the aortic walls. The corrections resulted in the detection of tissue growth by an improved recall of 8%.
 
 
 **[PLRI Lab](https://plri.de/)**, *Technische Universit ̈at Braunschweig* <span class="pull-right">May 2021 – Oct 2021</span>  
