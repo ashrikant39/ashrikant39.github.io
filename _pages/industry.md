@@ -8,7 +8,7 @@ classes: wide
 
 **Machine Learning Intern**, *Skylark Labs, New York, USA* <span class="pull-right">June 2023 - Aug 2023</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Pytorch, Ultralytics</span>  
-<br><i class="fas fa-plus small-grey"></i>Designed a framework using a pre-trained RegNet model to achieve a recall of 65\% in self-learning new categories by storing multi-scale quantized features to recognize pre-trained classes.
+<br><i class="fas fa-plus small-grey"></i>Designed a framework using a pre-trained RegNet model to achieve a recall of 65% in self-learning new categories by storing multi-scale quantized features to recognize pre-trained classes.
 <br><i class="fas fa-plus small-grey"></i>Trained a vector-quantized feature extractor to learn efficient multi-scale features of objects in natural scenes, enhancing the accuracy of the model by 12% to detect objects from
         newly learned classes.
 <br><i class="fas fa-plus small-grey"></i>Implemented the system to work on a single core of a CPU to run at about 3 fps while storing features of new classes encountered.
