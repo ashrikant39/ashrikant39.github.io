@@ -29,5 +29,5 @@ Electronics and Communication Engineering <span class="pull-right">Aug 2018 - Ma
 
 # Skills
 **Programming Languages**: Python, C++, MATLAB, Julia
-<br>**Frameworks**: PyTorch, TensorFlow, Jupyter, Git/GitHub, LaTeX
-<br>**Technologies**: Diffusion Models, Computational Imaging, ITK, Open-MMLab
+<br>**Frameworks**: PyTorch, TensorFlow, Jupyter, Git/GitHub, LaTeX, Open-MMLab, ITK
+<br>**Technologies**: Diffusion Models, Computational Imaging, 3D Object Detection, LiDAR Vision
