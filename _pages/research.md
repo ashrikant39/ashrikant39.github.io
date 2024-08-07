@@ -36,6 +36,12 @@ classes: wide
 <br><i class="fas fa-plus small-grey"></i>Acquired an F1 score of 0.94 on the test segmentation set using multiple partial annotations.
 
 
+**[Dr. Shyam's Lab](https://ece.nitk.ac.in/faculty/shyam-lal)**, *National Institute of Technology Karnataka* <span class="pull-right">Sept 2021 – Dec 2021</span>  
+<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Shyam Lal, Associate Professor, Department of Electronics and Communication Engineering</span>  
+<br><i class="fas fa-plus small-grey"></i> Proposed an efficient neural network architecture (LiverNet 2.0) for Cancer Grade Classification models for liver histopathological images, improving the F1 score by 12% from the baseline.
+<br><i class="fas fa-plus small-grey"></i>Implemented an efficient training pipeline and hyperparameter tuning to train the model in just 40 epochs to achieve SOTA performance.
+<br><i class="fas fa-plus small-grey"></i>Worked closely with the research staff at Kasturba Medical College, India, gathering relevant information about the H&E stained images.
+
 # Publications
 
 A Chanchal, S Lal, D Barnwal, P Sinha, S Arvavasu, and J Kini. Evolution of Livernet 2.x: Architectures for automated liver cancer grade
