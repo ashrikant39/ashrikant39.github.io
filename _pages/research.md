@@ -19,9 +19,10 @@ classes: wide
 
 **[Kim's Lab](https://kim.engin.umich.edu/)**, *University of Michigan* <span class="pull-right">May 2023 – Present</span>  
 <span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Hun-Seok Kim, Assistant Professor, EECS</span>
+<br><i class="fas fa-plus small-grey"></i> Currently working on optimizing a LiDAR point cloud-based 3D object detection pipeline using Latent Diffusion Models.
+<br><i class="fas fa-plus small-grey"></i> Trained a diffusion model on the BEV feature-space to compensate data-loss during LiDAR scanning.
 <br><i class="fas fa-plus small-grey"></i> Proposed and implemented improvements to the diffusion sampling algorithms for inverse imaging problems, enhancing the quality and fidelity of the samples of latent diffusion models, achieving an FID score of 37.2, an improvement of 17.2% over the baseline model.
 <br><i class="fas fa-plus small-grey"></i> Applied latent diffusion models to simulate a source and channel decoding system using diffusion denoising, resulting in a reconstruction PSNR of 24.4 dB using DDIM sampling on a channel SNR of 0 dB.
-<br><i class="fas fa-plus small-grey"></i> Currently working on LiDAR point cloud upsampling in the BEV space using diffusion posterior sampling.
 
 **[Burris' Lab](https://burris.lab.medicine.umich.edu/)**, *University of Michigan* <span class="pull-right">Aug 2022 – Apr 2023</span>  
 <span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Nicholas Burris, Associate Professor, Radiology</span>  
