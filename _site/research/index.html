@@ -117,9 +117,11 @@
             </li><li class="masthead__menu-item">
               <a href="/research/">Research</a>
             </li><li class="masthead__menu-item">
-              <a href="/teaching/">Teaching</a>
-            </li><li class="masthead__menu-item">
               <a href="/industry/">Industry</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/teaching/">Teaching</a>
             </li><li class="masthead__menu-item">
               <a href="/files/Shrikant_Arvavasu_Resume.pdf">CV</a>
             </li></ul>
@@ -162,7 +164,7 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>MS in ECE, Specializing in Computer Vision and ML</p>
+        <p>MS in ECE, Focusing on Computer Vision and ML</p>
 
       </div>
     
@@ -265,13 +267,12 @@
 
 **Computational modeling of electrophysiology recordings can predict octopus arm movement**, *Nitish Gedela, Sachin Salim, Julianna Richie, Autumn Mclane Svoboda, Cynthia Chestek, Anne Draelos, Galit Pelled*, *2023* -->
 
-<h1 id="labs">Labs</h1>
 <!-- ### Neuroscience <i class="fas fa-brain" aria-hidden="true">
 {: style="font-size:.85em; color: #7a8288;"}
 --- -->
 
 <p><strong><a href="https://kim.engin.umich.edu/">Kim’s Lab</a></strong>, <em>University of Michigan</em> <span class="pull-right">May 2023 – Present</span><br />
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Hun-Seok Kim, Assistant Professor, EECS</span>
+<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Hun-Seok Kim, Assistant Professor, EECS</span> 
 <br /><i class="fas fa-plus small-grey"></i> Currently working on optimizing a LiDAR point cloud-based 3D object detection pipeline using Latent Diffusion Models.
 <br /><i class="fas fa-plus small-grey"></i> Trained a diffusion model on the BEV feature-space to compensate data-loss during LiDAR scanning.
 <br /><i class="fas fa-plus small-grey"></i> Proposed and implemented improvements to the diffusion sampling algorithms for inverse imaging problems, enhancing the quality and fidelity of the samples of latent diffusion models, achieving an FID score of 37.2, an improvement of 17.2% over the baseline model.
@@ -299,36 +300,6 @@
 <p>A Chanchal, S Lal, D Barnwal, P Sinha, S Arvavasu, and J Kini. Evolution of Livernet 2.x: Architectures for automated liver cancer grade
 classification from HE stained liver histopathological images. Multimedia Tools and Applications (<a href="https://link.springer.com/article/10.1007/s11042-023-15176-5#:~:text=LiverNet%202.0%20uses%20a%20modified,in%20a%20tree%2Dlike%20fashion.">paper</a>).</p>
 
-<h1 id="projects">Projects</h1>
-<h3 style="font-size:.85em; color: #7a8288;" id="university-of-michigan">University of Michigan</h3>
-<hr />
-<p><strong>Translating Cartoon to Natural Images using Stable Diffusion</strong> <span class="pull-right">Oct 2023 – Dec 2023</span><br />
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Stella Yu (EECS 542: Advanced Computer Vision)</span><br />
-<a href="/files/reports/um/StableDiffusion_Cartoon_to_Natural.pdf">Report</a> | <a href="/files/presentations/StableDiffusion_Cartoon_to_Natural_Poster.pdf">Poster</a>
-<br /><i class="fas fa-plus small-grey"></i> Trained a latent diffusion model to unconditionally generate images of both domains
-<br /><i class="fas fa-plus small-grey"></i> Used a pre-trained image captioning model (BLIP) as a guidance to condition the diffusion generation.</p>
-
-<p><strong>Block-based Video Compressed Sensing</strong> <span class="pull-right">Feb 2023 - April 2023</span><br />
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Clayton Scott (EECS 553: Machine Learning)</span><br />
-<a href="/files/reports/um/VCSNet_Report.pdf">Report</a> 
-<br /><i class="fas fa-plus small-grey"></i> Innovated a block-based compressed sensing approach for natural images and videos, leveraging deep learning inspired by the insights from the paper <a href="https://ieeexplore.ieee.org/document/9025255">Video Compressed Sensing using Convolutional Neural Networks</a>.
-<br /><i class="fas fa-plus small-grey"></i> Trained the model and achieved a compression factor of 0.1 on non-keyframes of videos of <a href="https://www.cvlibs.net/datasets/kitti/">Kitti Dataset</a></p>
-
-<p><strong>Brain Tumor Segmentation using an ensemble of 3D U-Nets</strong> <span class="pull-right">Oct 2022 - Dec 2022</span><br />
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Andrew Owens (EECS 504: Graduate Computer Vision)</span><br />
-<a href="/files/reports/um/Brain_Tumor_Segmentation_EECS504_Report.pdf">Report</a> | <a href="/files/presentations/Brain_Tumor_Segmentation_EECS504_Presentation_Dec_2022.pdf">Presentation</a>
-<br /><i class="fas fa-plus small-grey"></i> Implemented 3D U-net, a deep convolutional neural network, to segment subregions of brain tumor
-<br /><i class="fas fa-plus small-grey"></i> Created an ensemble of multiple models trained with different hyper-parameters to reduce random errors
-<br /><i class="fas fa-plus small-grey"></i> Predicted the whole tumor region with a high dice score of 80.5%</p>
-
-<h3 style="font-size:.85em; color: #7a8288;" id="nitk">NITK</h3>
-<hr />
-
-<p><strong>Automatic Stroke Lesion Identification</strong> <span class="pull-right">Sep 2021 - Nov 2021</span><br />
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Deepu Vijayasenan (Bachelor’s Thesis)</span><br />
-<a href="/files/reports/nitk/Bachelor_Thesis.pdf">Report</a>
-<br /><i class="fas fa-plus small-grey"></i> Developed a method for segmenting stroke lesions in brain MRI volumes, utilizing deep 3-D convolutional networks (Residual-UNETs). This approach aimed to enhance the accuracy of stroke risk assessment in patients.
-<br /><i class="fas fa-plus small-grey"></i> Improved the lesion segmentation F1-score from 51.7% to 56.3% by incorporating brain parcellations into Grey Matter (GM) and White Matter (WM), improving the precision of diagnosis.</p>
 
   </div>
 </div>

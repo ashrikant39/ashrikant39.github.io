@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Home - Shrikant Arvavasu</title>
-<meta name="description" content="About me">
+<!-- begin _includes/seo.html --><title>Projects - Shrikant Arvavasu</title>
+<meta name="description" content="Shrikant Arvavasu - Graduate Student">
 
 
   <meta name="author" content="Shrikant Arvavasu">
@@ -20,14 +20,11 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Shrikant Arvavasu">
-<meta property="og:title" content="Home">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Projects">
+<meta property="og:url" content="http://localhost:4000/projects/">
 
 
-  <meta property="og:description" content="About me">
-
-
-
+  <meta property="og:description" content="Shrikant Arvavasu - Graduate Student">
 
 
 
@@ -37,7 +34,10 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+
+
+
+<link rel="canonical" href="http://localhost:4000/projects/">
 
 
 
@@ -86,7 +86,7 @@
 
   </head>
 
-  <body class="layout--single wide">
+  <body class="layout--archive wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -257,70 +257,42 @@
 
 
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Home">
-    <meta itemprop="description" content="About me">
+  <div class="archive">
     
+      <h1 id="page-title" class="page__title">Projects</h1>
     
+    <p style="font-size:.85em; color: #7a8288;"><strong>University of Michigan</strong></p>
+<hr />
+<p><strong>Translating Cartoon to Natural Images using Stable Diffusion</strong> <span class="pull-right">Oct 2023 – Dec 2023</span><br />
+<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Stella Yu (EECS 542: Advanced Computer Vision)</span><br />
+<a href="/files/reports/um/StableDiffusion_Cartoon_to_Natural.pdf">Report</a> | <a href="/files/presentations/StableDiffusion_Cartoon_to_Natural_Poster.pdf">Poster</a>
+<br /><i class="fas fa-plus small-grey"></i> Trained a latent diffusion model to unconditionally generate images of both domains
+<br /><i class="fas fa-plus small-grey"></i> Used a pre-trained image captioning model (BLIP) as a guidance to condition the diffusion generation.</p>
 
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Home
-</h1>
-          
+<p><strong>Block-based Video Compressed Sensing</strong> <span class="pull-right">Feb 2023 - April 2023</span><br />
+<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Clayton Scott (EECS 553: Machine Learning)</span><br />
+<a href="/files/reports/um/VCSNet_Report.pdf">Report</a> 
+<br /><i class="fas fa-plus small-grey"></i> Innovated a block-based compressed sensing approach for natural images and videos, leveraging deep learning inspired by the insights from the paper <a href="https://ieeexplore.ieee.org/document/9025255">Video Compressed Sensing using Convolutional Neural Networks</a>.
+<br /><i class="fas fa-plus small-grey"></i> Trained the model and achieved a compression factor of 0.1 on non-keyframes of videos of <a href="https://www.cvlibs.net/datasets/kitti/">Kitti Dataset</a></p>
 
+<p><strong>Brain Tumor Segmentation using an ensemble of 3D U-Nets</strong> <span class="pull-right">Oct 2022 - Dec 2022</span><br />
+<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Andrew Owens (EECS 504: Graduate Computer Vision)</span><br />
+<a href="/files/reports/um/Brain_Tumor_Segmentation_EECS504_Report.pdf">Report</a> | <a href="/files/presentations/Brain_Tumor_Segmentation_EECS504_Presentation_Dec_2022.pdf">Presentation</a>
+<br /><i class="fas fa-plus small-grey"></i> Implemented 3D U-net, a deep convolutional neural network, to segment subregions of brain tumor
+<br /><i class="fas fa-plus small-grey"></i> Created an ensemble of multiple models trained with different hyper-parameters to reduce random errors
+<br /><i class="fas fa-plus small-grey"></i> Predicted the whole tumor region with a high dice score of 80.5%</p>
 
-        </header>
-      
+<p style="font-size:.85em; color: #7a8288;"><strong>NITK</strong></p>
+<hr />
 
-      <section class="page__content" itemprop="text">
-        
-        <p>I am a recent graduate from the University of Michigan, Ann Arbor, focusing on Machine Learning and Computer Vision.</p>
+<p><strong>Automatic Stroke Lesion Identification</strong> <span class="pull-right">Sep 2021 - Nov 2021</span><br />
+<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Deepu Vijayasenan (Bachelor’s Thesis)</span><br />
+<a href="/files/reports/nitk/Bachelor_Thesis.pdf">Report</a>
+<br /><i class="fas fa-plus small-grey"></i> Developed a method for segmenting stroke lesions in brain MRI volumes, utilizing deep 3-D convolutional networks (Residual-UNETs). This approach aimed to enhance the accuracy of stroke risk assessment in patients.
+<br /><i class="fas fa-plus small-grey"></i> Improved the lesion segmentation F1-score from 51.7% to 56.3% by incorporating brain parcellations into Grey Matter (GM) and White Matter (WM), improving the precision of diagnosis.</p>
 
-<p>I am passionate about <strong>3D Object Detection</strong>, <strong>Lidar Perception</strong> and <strong>Generative Modeling</strong> for efficient AI. I am currently working under Prof. Hun-Seok Kim, where I am developing a generalized framework for <strong>LiDAR super-resolution</strong> using Diffusion Models. Currently open to work on cutting edge technology involving computer vision and deep learning.</p>
-
-<p><strong>Advisor</strong>: Prof. <a href="https://kim.engin.umich.edu/">Hun-Seok Kim</a></p>
-
-<p><strong>Contact Information</strong>:<br />
-• Email: ashri@umich.edu<br />
-• Office: 2238 EECS, 1301 Beal Avenue, Ann Arbor, MI 48109-2122</p>
-
-<h3 id="libraries-and-frameworks-i-work-with">Libraries and Frameworks I Work With</h3>
-<div style="text-align: center;">
-   <img src="/images/logos/pytorch.svg" alt="PyTorch" width="300" height="auto" style="margin: 12px;" />
-   <img src="/images/logos/pl2.svg" alt="PyTorch Lightning" width="300" height="auto" style="margin: 12px;" />
-   <img src="/images/logos/mmdet3d.png" alt="OpenMMLab" width="300" height="auto" style="margin: 12px;" />
-   <img src="/images/logos/nerfstudio.png" alt="OpenMMLab" width="300" height="auto" style="margin: 12px;" />
-   <img src="/images/logos/slurm.png" alt="OpenMMLab" width="200" height="auto" style="margin: 12px;" />
-   <img src="/images/logos/diffusers.jpg" alt="OpenMMLab" width="300" height="auto" style="margin: 12px;" />
+  </div>
 </div>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-
-
-      </footer>
-
-      
-
-      
-    </div>
-
-    
-  </article>
-
-  
-  
-</div>
-
     </div>
 
     

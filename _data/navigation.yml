@@ -8,12 +8,15 @@ main:
 
   - title: "Research"
     url: /research/
+
+  - title: "Industry"
+    url: /industry/
+
+  - title: "Projects"
+    url: /projects/
     
   - title: "Teaching"
     url: /teaching/
-    
-  - title: "Industry"
-    url: /industry/
 
   - title: "CV"
     url: /files/Shrikant_Arvavasu_Resume.pdf
