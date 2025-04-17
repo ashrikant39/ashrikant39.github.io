@@ -27,7 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ashrikant39.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "ashrikant39/ashrikant39.github.io"
 github_username:  ashrikant39
-linkedin_username:  shrikant-arvavasu-b8a14b198
+linkedin_username:  ashrikant39
 
 # Build settings
 # theme: minimal-mistakes-jekyll
@@ -49,7 +49,7 @@ author:
   location         : "Ann Arbor, MI, USA" # "MI, USA"
   employer         : "University of Michigan"
   github           : "ashrikant39"
-  linkedin         : "shrikant-arvavasu-b8a14b198"
+  linkedin         : "ashrikant39"
 
 # Site Footer
 footer:
