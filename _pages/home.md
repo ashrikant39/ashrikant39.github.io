@@ -8,7 +8,7 @@ classes: wide
 
 I am a recent graduate from the University of Michigan, Ann Arbor, focusing on Machine Learning and Computer Vision. 
 
-I am passionate about **3D Object Detection**, **Lidar Perception** and **Generative Modeling** for efficient AI. I am currently working under Prof. Hun-Seok Kim, where I am developing a generalized framework for **LiDAR super-resolution** using Diffusion Models. Currently open to work on cutting edge technology involving computer vision and deep learning.
+I am passionate about **3D Object Detection**, **Lidar Perception** and **Sensor Fusion** for efficient AI. I am currently working under Prof. Hun-Seok Kim, where I am developing a generalized framework for **Late-to-early fusion** using PETR-based fusion. Currently open to work on 3D object detection and segmentation using deep learning for autonomous driving systems.
 
 **Advisor**: Prof. [Hun-Seok Kim](https://kim.engin.umich.edu/)
 
