@@ -17,12 +17,11 @@ I am passionate about **3D Object Detection**, **Lidar Perception** and **Sensor
 &bull; Office: 2238 EECS, 1301 Beal Avenue, Ann Arbor, MI 48109-2122
 
 
-### Libraries and Frameworks I Work With
+### Tools I Work With
 <div style="text-align: center;">
    <img src="/images/logos/pytorch.svg" alt="PyTorch" width="300" height="auto" style="margin: 12px;" />
    <img src="/images/logos/pl2.svg" alt="PyTorch Lightning" width="300" height="auto" style="margin: 12px;" />
    <img src="/images/logos/mmdet3d.png" alt="OpenMMLab" width="300" height="auto" style="margin: 12px;" />
-   <img src="/images/logos/nerfstudio.png" alt="OpenMMLab" width="300" height="auto" style="margin: 12px;" />
    <img src="/images/logos/slurm.png" alt="OpenMMLab" width="200" height="auto" style="margin: 12px;" />
-   <img src="/images/logos/diffusers.jpg" alt="OpenMMLab" width="300" height="auto" style="margin: 12px;" />
+   <img src="/images/logos/trt.png" alt="TensorRT" width="300" height="auto" style="margin: 12px;" />
 </div>
