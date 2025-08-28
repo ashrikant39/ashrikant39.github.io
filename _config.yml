@@ -44,7 +44,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Author
 author:
   name             : "Shrikant Arvavasu"
-  avatar           : "/images/photo2.png"
+  avatar           : "/images/photo.png"
   bio              : "MS in ECE, Focusing on Computer Vision and ML"
   location         : "Ann Arbor, MI, USA" # "MI, USA"
   employer         : "University of Michigan"
