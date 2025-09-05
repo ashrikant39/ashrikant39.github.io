@@ -10,7 +10,7 @@ classes: wide
 {: style="font-size:1.1em;"}
 
 **Master of Science** --
-Signal and Image Processing and Machine Learning <span class="pull-right">Aug 2022 - April 2024</span>  
+Signal and Image Processing and Machine Learning <span class="pull-right">2022 - 2024</span>  
 Dept of Electrical Engineering and Computer Science  
 <!-- **Graduate certificate** --
 Computational Neuroscience <span class="pull-right">Jan 2023 - Dec 2023</span>  
@@ -20,14 +20,9 @@ Computational Neuroscience <span class="pull-right">Jan 2023 - Dec 2023</span>
 {: style="font-size:1.1em;"}
 
 **Bachelor of Technology** --
-Electronics and Communication Engineering <span class="pull-right">Aug 2018 - May 2022</span>
+Electronics and Communication Engineering <span class="pull-right">2018 - 2022</span>
 
 # Courses
 **University of Michigan** : Foundations of Computer Vision, Machine Learning, Advanced Topics in Computer Vision
 <br>**NITK** : Computer Vision, Neural Networks and Deep Learning, Image and Video Processing
 <!-- <br>**Coursera** : [Computational Neuroscience](https://coursera.org/share/2113ae69bb547a21873c0d36e8351d89) (U of Washington), [Visualizing Data with Python](https://coursera.org/share/07aa765a41f609997112e81c12e54255) (U of Michigan), [Python for Everybody](https://coursera.org/share/627b0e921e3c6efc633a14a492e4d96d) (U of Michigan) -->
-
-# Skills
-**Programming Languages**: Python, C++, MATLAB, Julia
-<br>**Frameworks**: PyTorch, TensorFlow, Jupyter, Git/GitHub, LaTeX, Open-MMLab, ITK
-<br>**Technologies**: Diffusion Models, Computational Imaging, 3D Object Detection, LiDAR Vision

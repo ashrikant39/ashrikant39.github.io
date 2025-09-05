@@ -21,3 +21,9 @@ classes: wide
 <br><i class="fas fa-plus small-grey"></i>Worked on detecting and classifying defects in semiconductor chips using Faster RCNN.
 <br><i class="fas fa-plus small-grey"></i>Trained a stochastic automatic augmentation framework based on Fast AutoAugment on a ResNet50 model to techniques for several public datasets like CIFAR-100 and in-house datasets which improved the average accuracy by 2.3%. Integrated the automatic augmentation  to the defect detection pipeline, improving the accuracy by 1.4%.
 <br><i class="fas fa-plus small-grey"></i> Reported to [Ayush Agarwal](https://www.linkedin.com/in/ayush-agarwal-mnnit/) and [Himanshu Sharma](https://www.linkedin.com/in/himanshu-sharma-050a4b29/).
+
+# Skills
+**Programming Languages**: Python, C++, MATLAB
+<br>**Machine Learning Tools**: PyTorch, TensorFlow, Pytorch Lightning, Jupyter Notebook, Huggingface, Open-MMLab, TensorRT C++ API
+<br>**OS/Frameworks**: Git, ROS, Linux, CMake
+<br>**Technologies**: Diffusion Models, Computational Imaging, 3D Object Detection, LiDAR Perception
