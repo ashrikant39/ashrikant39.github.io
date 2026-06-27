@@ -39,7 +39,7 @@ classes: wide
     <article class="portfolio-card">
       <p class="portfolio-card__tag">Inference</p>
       <h3>TensorRT YOLO Segmentation Inference</h3>
-      <p>CUDA-accelerated segmentation inference pipeline optimized for low-latency deployment.</p>
+      <p>C++/CUDA/TensorRT inference pipeline for real-time segmentation, with optimized preprocessing, GPU memory management, and postprocessing.</p>
       <a href="https://github.com/ashrikant39/yolo_seg_app" class="portfolio-card__link">GitHub repo</a>
       <div class="portfolio-card__meta">
         <span>TensorRT</span>
