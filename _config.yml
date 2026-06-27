@@ -21,7 +21,7 @@
 title: Shrikant Arvavasu
 email: ashri@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Shrikant Arvavasu - Graduate Student
+  Computer Vision / ML Engineer building perception, segmentation, LiDAR, and GPU inference systems
 domain: ashrikant39.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ashrikant39.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -39,14 +39,15 @@ plugins:
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Author
 author:
   name             : "Shrikant Arvavasu"
+  email            : "ashri@umich.edu"
   avatar           : "/images/photo.png"
-  bio              : "MS in ECE, Focusing on Computer Vision and ML"
-  location         : "Ann Arbor, MI, USA" # "MI, USA"
+  bio              : "Computer Vision / ML Engineer building perception, segmentation, LiDAR, and GPU inference systems"
+  location         : "India" # "MI, USA"
   employer         : "University of Michigan"
   github           : "ashrikant39"
   linkedin         : "ashrikant39"

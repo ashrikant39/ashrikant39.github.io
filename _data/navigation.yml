@@ -3,19 +3,19 @@ main:
   - title: "Home"
     url: "/"
 
-  - title: "Education"
+  - title: "Work"
     url: /education/
 
   - title: "Research"
     url: /research/
 
-  - title: "Industry"
+  - title: "Experience"
     url: /industry/
 
-  - title: "Projects"
+  - title: "Builds"
     url: /projects/
     
-  - title: "Teaching"
+  - title: "Mentoring"
     url: /teaching/
 
   - title: "CV"

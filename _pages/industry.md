@@ -6,24 +6,59 @@ author_profile: true
 classes: wide
 ---
 
-**Machine Learning Intern**, *Skylark Labs, New York, USA* <span class="pull-right">June 2023 - Aug 2023</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Pytorch, Ultralytics</span>  
-<br><i class="fas fa-plus small-grey"></i>Designed a framework using a pre-trained RegNet model to achieve a recall of 65% in self-learning new categories by storing multi-scale quantized features to recognize pre-trained classes.
-<br><i class="fas fa-plus small-grey"></i>Trained a vector-quantized feature extractor to learn efficient multi-scale features of objects in natural scenes, enhancing the accuracy of the model by 12% to detect objects from
-        newly learned classes.
-<br><i class="fas fa-plus small-grey"></i>Implemented the system to work on a single core of a CPU to run at about 3 fps while storing features of new classes encountered.
-<br><i class="fas fa-plus small-grey"></i>Reported to [Rishik Mourya](https://www.linkedin.com/in/brain-bust/).
+<section class="content-hero">
+  <p class="content-kicker">Industry</p>
+  <h1 class="content-title">Applied ML and CV roles</h1>
+  <p class="content-text">Industry work focused on efficient computer vision, model optimization, and deploying systems that run within practical latency constraints.</p>
+</section>
 
+<section class="content-section">
+  <div class="content-card">
+    <p class="content-kicker">Skylark Labs</p>
+    <h2 class="content-title">Machine Learning Intern</h2>
+    <p class="content-text">New York, USA | June 2023 - Aug 2023</p>
+    <div class="content-meta">
+      <span>PyTorch</span>
+      <span>Ultralytics</span>
+      <span>RegNet</span>
+    </div>
+    <ul class="content-list">
+      <li>Built a self-learning framework using a pre-trained RegNet model to recognize new categories.</li>
+      <li>Trained a vector-quantized feature extractor to improve detection accuracy for newly learned classes.</li>
+      <li>Optimized the system to run on a single CPU core at about 3 fps.</li>
+    </ul>
+  </div>
 
+  <div class="content-card">
+    <p class="content-kicker">Sixsense</p>
+    <h2 class="content-title">Computer Vision Intern</h2>
+    <p class="content-text">Singapore | Jan 2022 - April 2022</p>
+    <div class="content-meta">
+      <span>PyTorch</span>
+      <span>fastai</span>
+      <span>FastAutoAugment</span>
+    </div>
+    <ul class="content-list">
+      <li>Worked on defect detection and classification for semiconductor chips using Faster R-CNN.</li>
+      <li>Improved accuracy through automatic augmentation on public and in-house datasets.</li>
+      <li>Integrated the augmentation pipeline into the production defect detection workflow.</li>
+    </ul>
+  </div>
 
-**Computer Vision Intern**, *Sixsense, Singapore* <span class="pull-right">Jan 2022 - April 2022</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Pytorch, FastAutoAugment, fastai</span>  
-<br><i class="fas fa-plus small-grey"></i>Worked on detecting and classifying defects in semiconductor chips using Faster RCNN.
-<br><i class="fas fa-plus small-grey"></i>Trained a stochastic automatic augmentation framework based on Fast AutoAugment on a ResNet50 model to techniques for several public datasets like CIFAR-100 and in-house datasets which improved the average accuracy by 2.3%. Integrated the automatic augmentation  to the defect detection pipeline, improving the accuracy by 1.4%.
-<br><i class="fas fa-plus small-grey"></i> Reported to [Ayush Agarwal](https://www.linkedin.com/in/ayush-agarwal-mnnit/) and [Himanshu Sharma](https://www.linkedin.com/in/himanshu-sharma-050a4b29/).
-
-# Skills
-**Programming Languages**: Python, C++, MATLAB
-<br>**Machine Learning Tools**: PyTorch, TensorFlow, Pytorch Lightning, Jupyter Notebook, Huggingface, Open-MMLab, TensorRT C++ API
-<br>**OS/Frameworks**: Git, ROS, Linux, CMake
-<br>**Technologies**: Diffusion Models, Computational Imaging, 3D Object Detection, LiDAR Perception
+  <div class="content-card">
+    <p class="content-kicker">Skills</p>
+    <h2 class="content-title">Engineering stack</h2>
+    <div class="content-meta">
+      <span>Python</span>
+      <span>C++</span>
+      <span>MATLAB</span>
+      <span>TensorFlow</span>
+      <span>ROS</span>
+      <span>Linux</span>
+      <span>CMake</span>
+      <span>TensorRT</span>
+      <span>LiDAR</span>
+      <span>Diffusion</span>
+    </div>
+  </div>
+</section>

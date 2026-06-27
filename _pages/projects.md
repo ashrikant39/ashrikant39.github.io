@@ -6,37 +6,79 @@ author_profile: true
 classes: wide
 ---
 
-**University of Michigan**
-{: style="font-size:.85em; color: #7a8288;"}
----
-**Translating Cartoon to Natural Images using Stable Diffusion** <span class="pull-right">Oct 2023 – Dec 2023</span>  
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Stella Yu (EECS 542: Advanced Computer Vision)</span>  
-[Report](/files/reports/um/StableDiffusion_Cartoon_to_Natural.pdf) | [Poster](/files/presentations/StableDiffusion_Cartoon_to_Natural_Poster.pdf)
-<br><i class="fas fa-plus small-grey"></i> Trained a latent diffusion model to unconditionally generate images of both domains
-<br><i class="fas fa-plus small-grey"></i> Used a pre-trained image captioning model (BLIP) as a guidance to condition the diffusion generation.
+<section class="content-hero">
+  <p class="content-kicker">Projects</p>
+  <h1 class="content-title">Builds focused on ML performance and deployment</h1>
+  <p class="content-text">This page highlights course and personal projects with the same emphasis I use in engineering work: measurable outputs, model quality, and deployment constraints.</p>
+</section>
 
-**Block-based Video Compressed Sensing** <span class="pull-right">Feb 2023 - April 2023</span>  
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Clayton Scott (EECS 553: Machine Learning)</span>  
-[Report](/files/reports/um/VCSNet_Report.pdf) 
-<br><i class="fas fa-plus small-grey"></i> Innovated a block-based compressed sensing approach for natural images and videos, leveraging deep learning inspired by the insights from the paper [Video Compressed Sensing using Convolutional Neural Networks](https://ieeexplore.ieee.org/document/9025255).
-<br><i class="fas fa-plus small-grey"></i> Trained the model and achieved a compression factor of 0.1 on non-keyframes of videos of [Kitti Dataset](https://www.cvlibs.net/datasets/kitti/)
+<section class="content-section">
+  <div class="content-card">
+    <p class="content-kicker">Featured</p>
+    <h2 class="content-title">TensorRT YOLO Segmentation Inference</h2>
+    <p class="content-text">A CUDA-focused segmentation inference project aimed at fast, deployable vision workloads.</p>
+    <div class="content-links">
+      <a href="https://github.com/ashrikant39/yolo_seg_app">GitHub repo</a>
+    </div>
+    <div class="content-meta">
+      <span>TensorRT</span>
+      <span>CUDA</span>
+      <span>YOLO</span>
+      <span>Segmentation</span>
+    </div>
+  </div>
 
+  <div class="content-card">
+    <p class="content-kicker">University of Michigan</p>
+    <h2 class="content-title">Translating Cartoon to Natural Images using Stable Diffusion</h2>
+    <p class="content-text">Course project on latent diffusion generation across two image domains.</p>
+    <div class="content-links">
+      <a href="/files/reports/um/StableDiffusion_Cartoon_to_Natural.pdf">Report</a>
+      <a href="/files/presentations/StableDiffusion_Cartoon_to_Natural_Poster.pdf">Poster</a>
+    </div>
+    <ul class="content-list">
+      <li>Trained a latent diffusion model to generate images from both domains.</li>
+      <li>Used BLIP as guidance to condition generation.</li>
+    </ul>
+  </div>
 
-**Brain Tumor Segmentation using an ensemble of 3D U-Nets** <span class="pull-right">Oct 2022 - Dec 2022</span>  
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Andrew Owens (EECS 504: Graduate Computer Vision)</span>  
-[Report](/files/reports/um/Brain_Tumor_Segmentation_EECS504_Report.pdf) | [Presentation](/files/presentations/Brain_Tumor_Segmentation_EECS504_Presentation_Dec_2022.pdf)
-<br><i class="fas fa-plus small-grey"></i> Implemented 3D U-net, a deep convolutional neural network, to segment subregions of brain tumor
-<br><i class="fas fa-plus small-grey"></i> Created an ensemble of multiple models trained with different hyper-parameters to reduce random errors
-<br><i class="fas fa-plus small-grey"></i> Predicted the whole tumor region with a high dice score of 80.5%
+  <div class="content-card">
+    <p class="content-kicker">University of Michigan</p>
+    <h2 class="content-title">Block-based Video Compressed Sensing</h2>
+    <p class="content-text">A deep learning approach to compressed sensing for natural images and videos.</p>
+    <div class="content-links">
+      <a href="/files/reports/um/VCSNet_Report.pdf">Report</a>
+    </div>
+    <ul class="content-list">
+      <li>Developed a block-based compressed sensing model for natural image and video reconstruction.</li>
+      <li>Achieved a 0.1 compression factor on non-keyframes of KITTI videos.</li>
+    </ul>
+  </div>
 
+  <div class="content-card">
+    <p class="content-kicker">University of Michigan</p>
+    <h2 class="content-title">Brain Tumor Segmentation using 3D U-Nets</h2>
+    <p class="content-text">An ensemble-based 3D segmentation pipeline for medical imaging.</p>
+    <div class="content-links">
+      <a href="/files/reports/um/Brain_Tumor_Segmentation_EECS504_Report.pdf">Report</a>
+      <a href="/files/presentations/Brain_Tumor_Segmentation_EECS504_Presentation_Dec_2022.pdf">Presentation</a>
+    </div>
+    <ul class="content-list">
+      <li>Implemented 3D U-Net variants and ensembled multiple models to reduce random errors.</li>
+      <li>Predicted the whole tumor region with a dice score of 80.5 percent.</li>
+    </ul>
+  </div>
 
-
-**NITK**
-{: style="font-size:.85em; color: #7a8288;"}
----
-
-**Automatic Stroke Lesion Identification** <span class="pull-right">Sep 2021 - Nov 2021</span>  
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i> Dr. Deepu Vijayasenan (Bachelor's Thesis)</span>\
-[Report](/files/reports/nitk/Bachelor_Thesis.pdf)
-<br><i class="fas fa-plus small-grey"></i> Developed a method for segmenting stroke lesions in brain MRI volumes, utilizing deep 3-D convolutional networks (Residual-UNETs). This approach aimed to enhance the accuracy of stroke risk assessment in patients.
-<br><i class="fas fa-plus small-grey"></i> Improved the lesion segmentation F1-score from 51.7% to 56.3% by incorporating brain parcellations into Grey Matter (GM) and White Matter (WM), improving the precision of diagnosis.
+  <div class="content-card">
+    <p class="content-kicker">NITK</p>
+    <h2 class="content-title">Automatic Stroke Lesion Identification</h2>
+    <p class="content-text">Residual U-Net based lesion segmentation for brain MRI volumes.</p>
+    <div class="content-links">
+      <a href="/files/reports/nitk/Bachelor_Thesis.pdf">Thesis</a>
+    </div>
+    <ul class="content-list">
+      <li>Improved lesion segmentation F1-score from 51.7 percent to 56.3 percent.</li>
+      <li>Used brain parcellations to improve precision for Grey Matter and White Matter regions.</li>
+    </ul>
+  </div>
+</section>

@@ -6,12 +6,23 @@ author_profile: true
 classes: wide
 ---
 
-### Graduate Student Instructor
-{: style="font-size:.85em; color: #7a8288;"}
----
+<section class="content-hero">
+  <p class="content-kicker">Teaching</p>
+  <h1 class="content-title">Teaching that reinforces engineering fundamentals</h1>
+  <p class="content-text">I’ve supported computer vision courses at the University of Michigan as a Graduate Student Instructor.</p>
+</section>
 
-**[Computer Vision (EECS 442)](https://eecs442.github.io/)**, *University of Michigan* <span class="pull-right">Jan 2024 – Present</span>  
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i>  Dr. Jeong Joon Park, Computer Science & Engineering</span>
-
-**Foundations of Computer Vision (EECS 504)**, *University of Michigan* <span class="pull-right">Aug 2023 – Dec 2023</span>  
-<span class="small-grey"><i class="fas fa-user" aria-hidden="true"></i>  Dr. Jason Corso, Robotics</span>
+<section class="content-section">
+  <div class="content-card">
+    <p class="content-kicker">University of Michigan</p>
+    <h2 class="content-title">Graduate Student Instructor</h2>
+    <div class="content-meta">
+      <span>EECS 442</span>
+      <span>EECS 504</span>
+    </div>
+    <ul class="content-list">
+      <li>Computer Vision (EECS 442), Jan 2024 - Present, with Dr. Jeong Joon Park.</li>
+      <li>Foundations of Computer Vision (EECS 504), Aug 2023 - Dec 2023, with Dr. Jason Corso.</li>
+    </ul>
+  </div>
+</section>
